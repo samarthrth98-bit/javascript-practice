@@ -1,268 +1,276 @@
-// Q1
-var name = "Sai Samarth";
-console.log(name);
+// 1
+let name = "Sai Samarth";
+console.log(typeof name);
 
-// Q2
-var age = 21;
-console.log(age);
+// 2
+let age = 21;
+console.log(age, typeof age);
 
-// Q3
-var city;
-city = "Bangalore";
-console.log(city);
+// 3
+let isStudent = true;
+console.log(isStudent, typeof isStudent);
 
-// Q4
-var number = 20;
-number = 40;
-console.log(number);
+// 4
+let value;
+console.log(value, typeof value);
 
-// Q5
-var fruit = "Apple";
-var fruit = "Mango";
-console.log(fruit);
+// 5
+let data = null;
+console.log(data, typeof data);
 
-// Q6
-var myName = "Sai Samarth";
-var myAge = 21;
-var myCity = "Bangalore";
+// 6
+let str = "Hello";
+let num = 100;
+let bool = true;
+let undef;
+let nul = null;
+console.log(str, num, bool, undef, nul);
 
-console.log(myName);
-console.log(myAge);
-console.log(myCity);
-
-// Q7
-var collegeName = "Atria Institute of Technology";
-console.log(collegeName);
-
-// Q8
-var favoriteSubject = "JavaScript";
-console.log(favoriteSubject);
-
-// Q9 
-var number = 10;
-
-number = 20;
-number = 30;
-number = 40;
-
-console.log(number);
-
-// Q10
-var salary = 20000;
-salary = 25000;
-console.log(salary);
-
-// Q11
-let name2 = "Sai Samarth";
-console.log(name2);
-
-// Q12
-let age2 = 21;
-console.log(age2);
-
-// Q13
-let city2;
-city2 = "Bangalore";
-console.log(city2);
-
-// Q14
-let number2 = 100;
-number2 = 200;
-console.log(number2);
-
-
-// Q15
-let name3 = "Sai Samarth";
+// 7
 let qualification = "BTech";
-let myLocation = "Bangalore";
+console.log(typeof qualification);
 
-console.log(name3);
-console.log(qualification);
-console.log(myLocation);
+// 8
+let salary = 30000;
+console.log(typeof salary === "number");
 
-// Q16
-let course = "JavaScript";
-console.log(course);
+// 9
+let a = "100";
+let b = 100;
+console.log(typeof a, typeof b);
 
-// Q17
-let marks = 50;
-marks = 80;
-console.log(marks);
+// 10
+let myName = "Sai Samarth";
+let myAge = 21;
+let myQualification = "BTech";
+let status = "Fresher";
+console.log(myName, typeof myName);
+console.log(myAge, typeof myAge);
+console.log(myQualification, typeof myQualification);
+console.log(status, typeof status);
 
-// Q18
-let companyName = "Kodnest";
-console.log(companyName);
+// 11
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+console.log(fruits);
 
-// Q19
-let experience = 0;
-console.log(experience);
+// 12
+let numbers = [10, 20, 30, 40, 50];
+console.log(numbers[0]);
 
-// Q20
-let mobileModel = "Samsung";
-console.log(mobileModel);
+// 13
+let colors = ["Red", "Blue", "Green", "Yellow", "Black", "White"];
+console.log(colors[2]);
 
-// Q21
-const constName = "Sai Samarth";
-console.log(constName);
+// 14
+let mobiles = ["Samsung", "Apple", "OnePlus", "Vivo", "Oppo"];
+console.log(mobiles[mobiles.length - 1]);
 
-// Q22
-const birthYear = 2005;
-console.log(birthYear);
+// 15
+let nums = [10, 20, 30, 40, 50, 60, 70];
+console.log(nums[nums.length - 2]);
 
-// Q23
-const companyNameConst = "Kodnest";
-console.log(companyNameConst);
+// 16
+let foods = ["Pizza", "Burger", "Biryani", "Dosa", "Chicken"];
+console.log(foods[0], foods[2], foods[foods.length - 1]);
 
-// Q24
-const countryName = "India";
-console.log(countryName);
+// 17
+let cricketers = ["Virat", "Rohit", "Dhoni", "Bumrah", "Gill"];
+console.log(cricketers[3]);
 
-// Q25
-const constAge = 21;
-const constCity = "Bangalore";
-const constQualification = "BTech";
+// 18
+let toys = ["Car", "Ball", "Robot", "Teddy"];
+console.log(toys[toys.length - 1]);
 
-console.log(constName);
-console.log(constAge);
-console.log(constCity);
+// 19
+let values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(values[0], values[values.length - 1], values[values.length - 2]);
 
-// Q26
-const javascriptCourse = "JavaScript";
-console.log(javascriptCourse);
+// 20
+let mixed = ["Apple", "Car", "Virat", "Mango", "Robot"];
+console.log(mixed);
+console.log(mixed[0], mixed[1], mixed[2]);
 
-// Q27
-const myCollege = "Atria Institute of Technology";
-console.log(myCollege);
+// 21
+let person = {
+    name: "Sai Samarth",
+    age: 21,
+    city: "Bangalore"
+};
+console.log(person);
 
-// Q28
-const myFavoriteColor = "Black";
-console.log(myFavoriteColor);
+// 22
+let student = {
+    name: "Sai Samarth",
+    qualification: "BTech",
+    company: "Kodnest"
+};
+console.log(student.company);
 
-// Q29
-const myEmployeeId = "EMP001";
-console.log(myEmployeeId);
+// 23
+let fruitObject = {
+    fruits: ["Apple", "Mango", "Banana"]
+};
+console.log(fruitObject.fruits[1]);
 
-// Q30
-const myOfficeLocation = "Bangalore";
-console.log(myOfficeLocation);
+// 24
+let toyObject = {
+    toys: ["Car", "Ball", "Robot", "Teddy"]
+};
+console.log(toyObject.toys[toyObject.toys.length - 1]);
 
+// 25
+let cricket = {
+    cricketer: "Virat Kohli",
+    team: "India"
+};
+console.log(cricket.cricketer);
 
-// Q31
-console.log(100);
+// 26
+let details = {
+    fruitName: "Mango",
+    toyName: "Car",
+    cricketer: "Rohit Sharma"
+};
+console.log(details.fruitName, details.toyName, details.cricketer);
 
+// 27
+let college = {
+    students: ["Sai", "Rahul", "Arun"],
+    courses: ["Java", "Python", "SQL"]
+};
+console.log(college.students[0], college.courses[1]);
 
-// Q32
-console.log("Sai Samarth");
+// 28
+let mobileObject = {
+    mobile: ["Samsung", "Apple", "OnePlus", "Vivo"]
+};
+console.log(mobileObject.mobile[2]);
 
+// 29
+let employee = {
+    employeeName: "Sai",
+    skills: ["HTML", "CSS", "JavaScript"],
+    experience: 0
+};
+console.log(employee.skills[1]);
 
-// Q33
-console.log(21);
-console.log("BTech");
+// 30
+let personal = {
+    name: "Sai Samarth",
+    age: 21,
+    city: "Bangalore",
+    qualification: "BTech"
+};
+console.log(personal.name, personal.age, personal.city);
 
+// 31
+let x = 20;
+let y = 10;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
 
-// Q34
-console.log("Welcome to JavaScript");
+// 32
+let p = 25;
+let q = 4;
+console.log(p % q);
 
+// 33
+console.log(2 ** 5);
 
-// Q35
-console.log("Sai Samarth");
-console.log(21);
-console.log("Bangalore");
-console.log("BTech");
-console.log("JavaScript");
+// 34
+let m = 10;
+let n = 3;
+console.log(m + n);
+console.log(m - n);
+console.log(m * n);
+console.log(m / n);
+console.log(m % n);
+console.log(m ** n);
 
+// 35
+let value35 = 10;
+value35 = value35 + 5;
+console.log(value35);
 
-// Q36
-var userName2 = "Sai Samarth";
-console.log(userName2);
+// 36
+let pre = 10;
+console.log(++pre);
 
+// 37
+let post = 10;
+console.log(post++);
 
-// Q37
-var userAge2 = 21;
-console.log(userAge2);
+// 38
+let preDec = 20;
+console.log(--preDec);
 
+// 39
+let postDec = 20;
+console.log(postDec--);
 
-// Q38
-console.log("Sai Samarth");
-console.log(21);
-console.log("Bangalore");
-console.log("BTech");
+// 40
+let first = 10;
+let second = 10;
+console.log(++first);
+console.log(second++);
 
+// 41
+let a41 = 20;
+let b41 = 10;
+a41 += b41;
+console.log(a41);
 
-// Q39
-alert("Welcome to JavaScript");
+// 42
+let a42 = 50;
+let b42 = 20;
+a42 -= b42;
+console.log(a42);
 
+// 43
+let a43 = 10;
+let b43 = 5;
+a43 *= b43;
+console.log(a43);
 
-// Q40
-var alertName = "Sai Samarth";
-alert(alertName);
+// 44
+let a44 = 100;
+let b44 = 10;
+a44 /= b44;
+console.log(a44);
 
+// 45
+let a45 = 25;
+let b45 = 4;
+a45 %= b45;
+console.log(a45);
 
-// Q41
-var promptName = prompt("What is your name?");
-alert(promptName);
+// 46
+let a46 = 20;
+let b46 = 10;
+console.log(a46 < b46);
+console.log(a46 > b46);
+console.log(a46 <= b46);
+console.log(a46 >= b46);
 
+// 47
+let num47 = 100;
+let str47 = "100";
+console.log(num47 == str47);
+console.log(num47 === str47);
 
-// Q42
-var promptAge = prompt("What is your age?");
-console.log(promptAge);
+// 48
+let condition1 = 10 > 5;
+let condition2 = 20 > 15;
+console.log(condition1 && condition2);
+console.log(condition1 || condition2);
+console.log(!condition1);
 
+// 49
+let age49 = 21;
+console.log(age49 >= 18 ? "Eligible" : "Not Eligible");
 
-// Q43
-var promptQualification = prompt("What is your qualification?");
-alert(promptQualification);
-
-
-// Q44
-var promptCity = prompt("What is your city?");
-console.log(promptCity);
-
-
-// Q45
-confirm("Do you know JavaScript?");
-
-
-// Q46
-confirm("Do you want to continue?");
-
-
-// Q47
-var promptName2 = prompt("What is your name?");
-var promptQualification2 = prompt("What is your qualification?");
-
-document.writeln("Name: " + promptName2);
-document.writeln("<br>");
-document.writeln("Qualification: " + promptQualification2);
-
-
-// Q48
-var message = "Hello Everyone";
-document.writeln("<br>");
-document.writeln(message);
-
-
-// Q49
-var personName = "Sai Samarth";
-var personQualification = "BTech";
-var personCity = "Bangalore";
-
-console.log(personName);
-console.warn(personQualification);
-console.error(personCity);
-
-
-// Q50
-var userInfoName = prompt("Enter your name:");
-var userInfoAge = prompt("Enter your age:");
-var userInfoQualification = prompt("Enter your qualification:");
-
-console.log(userInfoName);
-console.warn(userInfoAge);
-console.error(userInfoQualification);
-
-document.writeln("<br>");
-document.writeln("Name: " + userInfoName);
-document.writeln("<br>");
-document.writeln("Age: " + userInfoAge);
-document.writeln("<br>");
-document.writeln("Qualification: " + userInfoQualification);
+// 50
+let marks = 70;
+console.log(marks >= 35 ? "Pass" : "Fail");
