@@ -1,319 +1,298 @@
 // 1
-console.log(10 > 5 && 20 > 15);
+let q1Name = "Sai Samarth";
+console.log(typeof q1Name);
 
 // 2
-console.log(10 > 15 && 20 > 10);
+let q2Age = 21;
+console.log(q2Age);
+console.log(typeof q2Age);
 
 // 3
-console.log(10 > 20 || 15 > 10);
+let q3Value = true;
+console.log(q3Value);
+console.log(typeof q3Value);
 
 // 4
-console.log(5 > 10 || 20 < 15);
+let q4Value;
+console.log(q4Value);
+console.log(typeof q4Value);
 
 // 5
-console.log(!(10 > 5));
+let q5Value = null;
+console.log(q5Value);
+console.log(typeof q5Value);
 
 // 6
-console.log(!(10 < 5));
+let q6String = "Hello";
+let q6Number = 100;
+let q6Boolean = true;
+let q6Undefined;
+let q6Null = null;
+console.log(q6String, q6Number, q6Boolean, q6Undefined, q6Null);
 
 // 7
-let q7a = 10 > 5;
-let q7b = 20 > 15;
-let q7c = 30 < 40;
-console.log((q7a && q7b) || q7c);
+let q7Qualification = "BTech";
+console.log(typeof q7Qualification);
 
 // 8
-let q8a = 10 > 5;
-let q8b = 20 < 15;
-let q8c = 30 > 20;
-console.log(q8a && q8b || !q8c);
-
+let q8Salary = 30000;
+console.log(typeof q8Salary === "number");
 
 // 9
-let q9Age = 21;
-console.log(q9Age >= 18 ? "Eligible" : "Not Eligible");
+let q9StringNumber = "100";
+let q9Number = 100;
+console.log(typeof q9StringNumber);
+console.log(typeof q9Number);
 
 // 10
-let q10Marks = 70;
-console.log(q10Marks >= 35 ? "Pass" : "Fail");
+let q10Name = "Sai Samarth";
+let q10Age = 21;
+let q10Qualification = "BTech";
+let q10WorkingStatus = "Fresher";
+console.log(q10Name, typeof q10Name);
+console.log(q10Age, typeof q10Age);
+console.log(q10Qualification, typeof q10Qualification);
+console.log(q10WorkingStatus, typeof q10WorkingStatus);
+
 
 // 11
-let q11Number = 15;
-console.log(q11Number > 10 ? "Greater than 10" : "Not greater than 10");
+let q11Fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+console.log(q11Fruits);
 
 // 12
-let q12Number = 8;
-console.log(q12Number % 2 === 0 ? "Even" : "Odd");
+let q12Numbers = [10, 20, 30, 40, 50];
+console.log(q12Numbers[0]);
 
 // 13
-let q13Salary = 35000;
-console.log(q13Salary > 30000 ? "Good Salary" : "Low Salary");
-
+let q13Colors = ["Red", "Blue", "Green", "Yellow", "Black", "White"];
+console.log(q13Colors[2]);
 
 // 14
-let q14FirstName = "Sai";
-let q14LastName = "Samarth";
-let q14City = "Bangalore";
-console.log(q14FirstName + " " + q14LastName + " " + q14City);
+let q14Mobiles = ["Samsung", "Apple", "OnePlus", "Vivo", "Realme"];
+console.log(q14Mobiles[q14Mobiles.length - 1]);
 
 // 15
-let q15Name = "Sai";
-let q15Age = 21;
-console.log("Name: " + q15Name + ", Age: " + q15Age);
+let q15Numbers = [10, 20, 30, 40, 50, 60, 70];
+console.log(q15Numbers[q15Numbers.length - 2]);
 
 // 16
-let q16Product = "Laptop";
-let q16Price = 50000;
-let q16Brand = "Dell";
-console.log("Product: " + q16Product + ", Price: " + q16Price + ", Brand: " + q16Brand);
+let q16Foods = ["Pizza", "Burger", "Biryani", "Dosa", "Idli"];
+console.log(q16Foods[0]);
+console.log(q16Foods[2]);
+console.log(q16Foods[q16Foods.length - 1]);
 
 // 17
-let q17Name = "Sai Samarth";
-let q17Qualification = "BTech";
-let q17Company = "Kodnest";
-console.log(`My name is ${q17Name}, I completed ${q17Qualification}, and my company is ${q17Company}.`);
+let q17Cricketers = ["Virat", "Rohit", "Dhoni", "Gill", "Bumrah"];
+console.log(q17Cricketers[3]);
 
 // 18
-let q18Name = "Sai Samarth";
-let q18Age = 21;
-let q18City = "Bangalore";
-console.log(`My name is ${q18Name}, I am ${q18Age} years old, and I live in ${q18City}.`);
-
+let q18Toys = ["Car", "Ball", "Robot", "Doll"];
+console.log(q18Toys[q18Toys.length - 1]);
 
 // 19
-let q19Result = "10" + 5;
-console.log(q19Result, typeof q19Result);
+let q19Values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(q19Values[0]);
+console.log(q19Values[q19Values.length - 1]);
+console.log(q19Values[q19Values.length - 2]);
 
 // 20
-let q20Result = 10 + 5;
-console.log(q20Result, typeof q20Result);
+let q20Mixed = ["Apple", "Car", "Virat", "Mango", "Robot"];
+console.log(q20Mixed);
+console.log(q20Mixed[0]);
+console.log(q20Mixed[1]);
+console.log(q20Mixed[2]);
+
 
 // 21
-let q21Result = 10 + true;
-console.log(q21Result, typeof q21Result);
+let q21Person = {
+    name: "Sai Samarth",
+    age: 21,
+    city: "Bangalore"
+};
+console.log(q21Person);
 
 // 22
-let q22Result = 10 + null;
-console.log(q22Result, typeof q22Result);
+let q22Person = {
+    name: "Sai Samarth",
+    qualification: "BTech",
+    company: "Kodnest"
+};
+console.log(q22Person.company);
 
 // 23
-let q23Result = "10" + true;
-console.log(q23Result, typeof q23Result);
+let q23Object = {
+    fruits: ["Apple", "Banana", "Mango"]
+};
+console.log(q23Object.fruits[1]);
 
 // 24
-let q24Result = "Hello" + [1, 2, 3];
-console.log(q24Result, typeof q24Result);
+let q24Object = {
+    toys: ["Car", "Ball", "Robot", "Doll"]
+};
+console.log(q24Object.toys[q24Object.toys.length - 1]);
 
 // 25
-let q25Result = 10 + {};
-console.log(q25Result, typeof q25Result);
+let q25Object = {
+    cricketer: "Virat Kohli",
+    team: "India"
+};
+console.log(q25Object.cricketer);
 
 // 26
-let q26a = "5" + 5;
-let q26b = 10 + true;
-let q26c = 10 + null;
-console.log(typeof q26a);
-console.log(typeof q26b);
-console.log(typeof q26c);
-
+let q26Object = {
+    fruitName: "Mango",
+    toyName: "Robot",
+    cricketer: "Dhoni"
+};
+console.log(q26Object.fruitName);
+console.log(q26Object.toyName);
+console.log(q26Object.cricketer);
 
 // 27
-let q27 = Number("100");
-console.log(q27);
+let q27Object = {
+    students: ["Rahul", "Sam", "John"],
+    courses: ["Java", "JavaScript", "Python"]
+};
+console.log(q27Object.students[0]);
+console.log(q27Object.courses[1]);
 
 // 28
-let q28 = Number("25");
-console.log(q28, typeof q28);
+let q28Object = {
+    mobile: ["Samsung", "Apple", "OnePlus", "Vivo"]
+};
+console.log(q28Object.mobile[2]);
 
 // 29
-console.log(Number(true));
-
-// 30
-console.log(Number(false));
-
-// 31
-console.log(Number(""));
-
-// 32
-console.log(Number(null));
-
-// 33
-console.log(Number(undefined));
-
-// 34
-console.log(Boolean("Hello"));
-
-// 35
-console.log(Boolean(""));
-
-// 36
-console.log(Boolean(0));
-console.log(Boolean(1));
-console.log(Boolean(-1));
-
-// 37
-console.log(Boolean([]));
-
-// 38
-console.log(Boolean({}));
-
-
-// 39
-let q39Age = 21;
-
-if (q39Age >= 18) {
-    console.log("Eligible");
-}
-
-// 40
-let q40Age = 21;
-
-if (q40Age >= 18) {
-    console.log("Eligible to Vote");
-} else {
-    console.log("Not Eligible to Vote");
-}
-
-// 41
-let q41Marks = 70;
-
-if (q41Marks >= 35) {
-    console.log("Pass");
-} else {
-    console.log("Fail");
-}
-
-// 42
-let q42Time = 15;
-
-if (q42Time >= 1 && q42Time <= 6) {
-    console.log("Early Morning");
-} else if (q42Time >= 7 && q42Time <= 12) {
-    console.log("Morning");
-} else if (q42Time >= 13 && q42Time <= 17) {
-    console.log("Afternoon");
-} else if (q42Time >= 18 && q42Time <= 19) {
-    console.log("Evening");
-} else if (q42Time >= 20 && q42Time <= 24) {
-    console.log("Night");
-} else {
-    console.log("Invalid Time");
-}
-
-// 43
-let q43Temperature = 30;
-
-if (q43Temperature > 35) {
-    console.log("Hot");
-} else if (q43Temperature >= 20 && q43Temperature <= 35) {
-    console.log("Normal");
-} else {
-    console.log("Cold");
-}
-
-// 44
-let q44Age = 21;
-let q44Height = 175;
-let q44Weight = 65;
-
-if (q44Age >= 18) {
-    if (q44Height >= 170) {
-        if (q44Weight >= 60) {
-            console.log("Eligible");
-        }
-    }
-}
-
-
-// 45
-let q45TrafficLight = "red";
-
-switch (q45TrafficLight) {
-    case "red":
-        console.log("Stop");
-        break;
-    case "yellow":
-        console.log("Get Ready");
-        break;
-    case "green":
-        console.log("Go");
-        break;
-    default:
-        console.log("Invalid Traffic Light");
-}
-
-// 46
-let q46Day = "Monday";
-
-switch (q46Day) {
-    case "Monday":
-        console.log("Monday");
-        break;
-    case "Tuesday":
-        console.log("Tuesday");
-        break;
-    case "Wednesday":
-        console.log("Wednesday");
-        break;
-    case "Thursday":
-        console.log("Thursday");
-        break;
-    case "Friday":
-        console.log("Friday");
-        break;
-    case "Saturday":
-        console.log("Saturday");
-        break;
-    case "Sunday":
-        console.log("Sunday");
-        break;
-    default:
-        console.log("Invalid Day");
-}
-
-// 47
-let q47Choice = 1;
-
-switch (q47Choice) {
-    case 1:
-        console.log("Start");
-        break;
-    case 2:
-        console.log("Settings");
-        break;
-    case 3:
-        console.log("Exit");
-        break;
-    default:
-        console.log("Invalid Choice");
-}
-
-// 48
-for (let q48 = 1; q48 <= 10; q48++) {
-    console.log(q48);
-}
-
-// 49
-let q49 = 10;
-
-while (q49 >= 1) {
-    console.log(q49);
-    q49--;
-}
-
-// 50
-let q50Fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
-
-for (let fruit of q50Fruits) {
-    console.log(fruit);
-}
-
-let q50Person = {
-    name: "Sai Samarth",
-    role: "Frontend Developer",
+let q29Employee = {
+    employeeName: "Sai Samarth",
+    skills: ["HTML", "CSS", "JavaScript"],
     experience: 0
 };
+console.log(q29Employee.skills[1]);
 
-for (let key in q50Person) {
-    console.log(key, q50Person[key]);
-}
+// 30
+let q30Person = {
+    name: "Sai Samarth",
+    age: 21,
+    city: "Bangalore",
+    qualification: "BTech"
+};
+console.log(q30Person.name);
+console.log(q30Person.age);
+console.log(q30Person.qualification);
+
+
+// 31
+let q31A = 20;
+let q31B = 10;
+console.log(q31A + q31B);
+console.log(q31A - q31B);
+console.log(q31A * q31B);
+console.log(q31A / q31B);
+
+// 32
+let q32A = 25;
+let q32B = 4;
+console.log(q32A % q32B);
+
+// 33
+console.log(2 ** 5);
+
+// 34
+let q34A = 10;
+let q34B = 5;
+console.log(q34A + q34B);
+console.log(q34A - q34B);
+console.log(q34A * q34B);
+console.log(q34A / q34B);
+console.log(q34A % q34B);
+console.log(q34A ** q34B);
+
+// 35
+let q35Number = 10;
+q35Number = q35Number + 5;
+console.log(q35Number);
+
+
+// 36
+let q36Number = 10;
+console.log(++q36Number);
+
+// 37
+let q37Number = 10;
+console.log(q37Number++);
+
+// 38
+let q38Number = 20;
+console.log(--q38Number);
+
+// 39
+let q39Number = 20;
+console.log(q39Number--);
+
+// 40
+let q40Pre = 10;
+let q40Post = 10;
+console.log(++q40Pre);
+console.log(q40Post++);
+
+
+// 41
+let q41A = 20;
+let q41B = 10;
+q41A += q41B;
+console.log(q41A);
+
+// 42
+let q42A = 50;
+let q42B = 20;
+q42A -= q42B;
+console.log(q42A);
+
+// 43
+let q43A = 10;
+let q43B = 5;
+q43A *= q43B;
+console.log(q43A);
+
+// 44
+let q44A = 100;
+let q44B = 10;
+q44A /= q44B;
+console.log(q44A);
+
+// 45
+let q45A = 25;
+let q45B = 4;
+q45A %= q45B;
+console.log(q45A);
+
+
+// 46
+let q46A = 20;
+let q46B = 10;
+console.log(q46A < q46B);
+console.log(q46A > q46B);
+console.log(q46A <= q46B);
+console.log(q46A >= q46B);
+
+// 47
+let q47Number = 10;
+let q47String = "10";
+console.log(q47Number == q47String);
+console.log(q47Number === q47String);
+
+// 48
+let q48A = 10;
+let q48B = 20;
+console.log(q48A < q48B && q48B > 15);
+console.log(q48A > q48B || q48B > 15);
+console.log(!(q48A > q48B));
+
+// 49
+let q49Age = 21;
+console.log(q49Age >= 18 ? "Eligible" : "Not Eligible");
+
+// 50
+let q50Marks = 60;
+console.log(q50Marks >= 35 ? "Pass" : "Fail");
